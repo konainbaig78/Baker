@@ -1,0 +1,538 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+}
+body {
+  color: #202020;
+  font-weight: 400;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin: 62px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 1000px;
+  max-width: 100%;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(32, 32, 32);
+}
+.nav {
+  padding-left: 18px;
+  font-size: 18px;
+}
+a.nav:hover {
+  color: #000000;
+  border: #5fcac7;
+  text-decoration: underline;
+  text-decoration-color: ;
+}
+i.fa-brands:hover {
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-color: #5fcac7;
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  min-width: 100px;
+}
+.btn {
+  border-radius: 50px;
+  text-align: center;
+  max-width: 100%;
+  min-width: 100px;
+  width: 140px;
+  padding: 15px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  background-color: #5fcac7;
+}
+.btn:hover {
+  background-color: #10c4be;
+}
+.icon {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.fa-brands {
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+.swipe {
+  background-image: url("images/Bakery.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 151px;
+}
+div.swipe > div > ul > li {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 5px;
+}
+div.swipe > div > ul {
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 70px;
+  color: white;
+  font-weight: 900px;
+}
+.img2 {
+  background-image: url("images/bakery-1920x1280.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 151px;
+}
+div.img2 > div > span {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.btn1 {
+  border-radius: 50px;
+  text-align: center;
+  max-width: 100%;
+  min-width: 100px;
+  width: 221px;
+  padding: 15px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  background-color: #5fcac7;
+}
+.btn1:hover {
+  background-color: #10c4be;
+}
+.img3 {
+  background-image: url("images/Black\ Velvet\ Cake.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 151px;
+}
+div.img3 > div > span {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.special {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("images/Meet\ the\ Suprême_\ The\ new\,\ cream-filled\ croissant\ that's\ going\ viral\ and\ 'worth\ the\ hype'.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 151px;
+}
+.div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+.brad > img {
+  display: inline-block;
+  border-radius: 30px;
+}
+.clr {
+  color: #343a40;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+}
+.margin > h1 {
+  margin-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#size {
+  width: 380px;
+}
+.discover {
+  background: linear-gradient(
+      rgba(72, 213, 213, 0.881),
+      rgba(153, 218, 218, 0.881)
+    ),
+    url("images/UK\ Nationwide\ Cookies\ Delivery.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 151px;
+  padding-right: 151px;
+    height: 493px;
+}
+.content {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  border: 3px solid white;
+  width: 906px;
+  height: 349px;
+}
+.fa-solid {
+  color: white;
+}
+.icon2 {
+  text-align: center;
+  font-size: 62px;
+}
+.magic {
+  margin-top: 25px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+}
+#p {
+  width: 574px;
+  height: 52px;
+}
+.p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  margin-top: 25px;
+}
+.btn2 {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  width: 175px;
+  height: 50px;
+  border-radius: 50px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.125rem;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 40px;
+}
+.btn2:hover {
+  background: white;
+  color: #6c757d;
+  font-weight: 600;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pink {
+  color: #ff91a4;
+  padding-bottom: 15px;
+}
+.black {
+  color: #4b4342;
+}
+.flex1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.flex2 > img {
+  width: 257px;
+  margin-top: 30px;
+  border-radius: 15px;
+  padding-right: 10px;
+}
+.create {
+  margin-bottom: 60px;
+}
+.recipe {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("images/Cinnamon\ Sugar\ Brioche\ Donuts.jpg");
+  font-family: "DM Sans", sans-serif;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 40px;
+}
+ul {
+  list-style: none;
+}
+.font-size {
+  font-size: 2.625rem;
+}
+.fs {
+  font-size: 1.375rem;
+}
+.eve {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-top: 61px;
+}
+
+.recipe > div {
+  padding-top: 65px;
+}
+.plr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.m {
+  margin-top: 20px;
+}
+ul > li {
+  line-height: 32.5px;
+}
+.ind {
+  margin-bottom: 20px;
+}
+.client {
+  background: radial-gradient(
+      rgba(255, 182, 172, 0.943),
+      rgba(255, 123, 171, 0.934)
+    ),
+    url("images/Easy\ Coffee\ Milkshake\ \(1\).jpg");
+  font-family: "DM Sans", sans-serif;
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.white {
+  color: white;
+}
+.eb {
+  color: #ebeaed;
+}
+.img-cont {
+  width: 70px;
+  height: 70px;
+  padding-right: 30px;
+}
+.radi {
+  width: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+.para {
+  width: 316px;
+  height: 150px;
+  line-height: 30px;
+  font-size: 1rem;
+}
+.flex3 {
+  display: flex;
+}
+.radi > div > span {
+  margin-bottom: 10px;
+}
+.flex4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.padding {
+  padding-bottom: 46px;
+}
+.tb {
+  width: 536px;
+  height: 1106px;
+  font-family: "DM Sans", sans-serif;
+  line-height: 36px;
+}
+.cell {
+  padding: 22px 30px 20px 30px;
+}
+.border-bot {
+  border-bottom: 2px solid #ebeaed;
+}
+.e {
+  color: #919dab;
+  font-size: 1.56rem;
+}
+.flex5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ckk {
+  margin-bottom: 25px;
+  font-size: 2.625rem;
+  line-height: 52px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+.wh {
+  width: 270px;
+  height: 240px;
+}
+.b {
+  color: #5fcac7;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 26px;
+}
+.box {
+  padding: 15px 147px 15px 147px;
+  margin-bottom: 76px;
+}
+.box2 {
+  background-color: rgb(243, 242, 244);
+  width: 200px;
+  height: 172px;
+  padding: 40px;
+  border-radius: 6px;
+  font-family: "DM Sans", sans-serif;
+}
+.box2 > h3 {
+  font-weight: 400;
+  font-size: 1.37rem;
+  line-height: 32px;
+}
+.ge {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.la {
+  background-image: url("images/Black\ Velvet\ Cake\ -\ Peaches\ 2\ Peaches.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 1264px;
+  height: 548px;
+}
+div.st > h1 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-weight: 700;
+  font-size: 3.65rem;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}
+input {
+  border: 2px solid #ebeaed;
+  opacity: 0.4;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: transparent;
+  height: 60px;
+  width: 293px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 30px;
+}
+input:active {
+  border: 2px solid #202020;
+}
+.la > div > button {
+  height: 60px;
+  width: 179px;
+}
+.gp {
+  display: flex;
+  gap: 27px;
+  margin-top: 0;
+}
+.follow {
+  margin-bottom: 25px;
+  margin-top: 55px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.32rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+.dico {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dico > i {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.fa-brands:hover {
+  border-color: white;
+}
+.foot {
+  padding-top: 92px;
+  padding-bottom: 0px;
+  background-color: #2a2a2a;
+  background-size: cover;
+  width: 1263px;
+  height: 250px;
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  gap: 197px;
+}
+.cntr {
+  text-align: center;
+}
+.ts {
+  font-size: 1rem;
+}
+.inline {
+  width: 349px;
+  height: 40px;
+}
+.pl {
+  padding-left: 15px;
+}
+#logo1 {
+  width: 60px;
+  height: 60px;
+}
