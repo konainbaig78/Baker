@@ -31,11 +31,11 @@ body {
 }
 a.nav:hover {
   color: #000000;
-  border: #5fcac7;
+  border-bottom-color: #5fcac7;
   text-decoration: underline;
-  text-decoration-color: ;
+  text-decoration-color: #5fcac7;
 }
-i.fa-brands:hover {
+i.hor:hover {
   color: #000000;
   text-decoration: underline;
   text-decoration-color: #5fcac7;
@@ -70,7 +70,6 @@ i.fa-brands:hover {
   padding-left: 15px;
   font-size: 18px;
 }
-
 .swipe {
   background-image: url("images/Bakery.jpg");
   background-size: cover;
@@ -96,7 +95,9 @@ div.swipe > div > ul {
   font-family: "DM Sans", sans-serif;
   font-size: 70px;
   color: white;
-  font-weight: 900px;
+}
+h1 {
+  font-weight: 700;
 }
 .img2 {
   background-image: url("images/bakery-1920x1280.jpg");
@@ -165,13 +166,41 @@ div.img3 > div > span {
 }
 .div {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 30px;
+  margin-top: 80px;
 }
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.ta {
+  text-align-last: left;
+}
+.jc {
+  justify-content: center;
+}
+.cont {
+  width: 3709px;
+  height: 217px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 .brad > img {
-  display: inline-block;
+  display: flex;
   border-radius: 30px;
+  width: 232px;
+  height: 160px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.brad > p {
+  margin: 25px 65px 0;
+  text-align: center;
+  font-weight: 500;
+  color: #4b4342;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.375rem;
+  line-height: 32px;
 }
 .clr {
   color: #343a40;
@@ -185,9 +214,6 @@ div.img3 > div > span {
   margin-left: 15px;
   margin-right: 15px;
 }
-#size {
-  width: 380px;
-}
 .discover {
   background: linear-gradient(
       rgba(72, 213, 213, 0.881),
@@ -200,7 +226,7 @@ div.img3 > div > span {
   padding-bottom: 300px;
   padding-left: 151px;
   padding-right: 151px;
-    height: 493px;
+  height: 493px;
 }
 .content {
   padding-top: 96px;
@@ -440,12 +466,18 @@ ul > li {
   justify-content: space-between;
   gap: 20px;
 }
+@media only screen and (min-width: 1000px) {
+  .la {
+    width: 100%;
+  }
+}
 .la {
   background-image: url("images/Black\ Velvet\ Cake\ -\ Peaches\ 2\ Peaches.jpg");
   background-size: cover;
   background-position: center;
   width: 1264px;
   height: 548px;
+  max-width: 100%;
 }
 div.st > h1 {
   padding-top: 70px;
@@ -500,13 +532,15 @@ input:active {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .dico > i {
   padding-left: 5px;
   padding-right: 5px;
 }
-.fa-brands:hover {
-  border-color: white;
+div.dico:hover {
+  text-decoration: none;
+  border: 2px solid #ffffff;
 }
 .foot {
   padding-top: 92px;
