@@ -227,6 +227,8 @@ div.img3 > div > span {
   padding-left: 151px;
   padding-right: 151px;
   height: 493px;
+  display: flex;
+  justify-content: center;
 }
 .content {
   padding-top: 96px;
